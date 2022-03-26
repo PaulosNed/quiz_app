@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
 
+import 'ui/QuizApp.dart';
+
 void main() {
-  runApp(const MyApp());
+  runApp(MaterialApp(
+    home: QuizApp(),
+  ));
 }
 
 class MyApp extends StatelessWidget {
